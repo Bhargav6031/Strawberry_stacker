@@ -123,3 +123,19 @@ make px4_sitl_default gazebo
 
 Now you should see a window pop out and a drone is centered in the middle of the environment.
   
+5.
+
+Open a new terminal window and type the following command
+
+cd ~/catkin_ws/src
+git clone https://github.com/erts-RnD/strawberry_stacker.git
+cd ..
+catkin build 
+
+6.
+
+Type the following command in terminal
+cd ~/catkin_ws/src
+
+replace the existing strawberry stacker folder with the above current repository.
+
