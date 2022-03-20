@@ -20,7 +20,6 @@
 
 	<node name="throttler_model_states" type="throttle" pkg="topic_tools" args="messages /gazebo/model_states 10"/>
     <node name="gripper_service" type="gripper_service.py" pkg="gazebo_ros_link_attacher"/>
-
 	<group if="$(arg record)">
 		<node name="rosbag_record_waypoint_misson" pkg="rosbag" type="record"
 		   args="record -O $(find task_3)/bag_files/$(arg rec_name) --duration=$(arg duration) --chunksize=10 /mavros/setpoint_position/local /mavros/local_position/pose /gazebo/model_states_throttle " output="screen"/>
