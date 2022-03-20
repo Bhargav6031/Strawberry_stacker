@@ -119,7 +119,6 @@ class stateMoniter:
         self.local_pos.y = msg.pose.position.y
         self.local_pos.z = msg.pose.position.z
 
-    # Create more callback functions for other subscribers
 
 
 def main():
@@ -158,12 +157,11 @@ def main():
     pos.pose.position.y = 0
     pos.pose.position.z = 0
 
-    # Set your velocity here
+    # Set  velocity here
     vel = Twist()
     vel.linear.x = 0
     vel.linear.y = 0
     vel.linear.z = 0
-    # Similarly add other containers
 
     # Initialize subscriber
     rospy.Subscriber("/edrone0/mavros/state", State, stateMt.stateCb)
