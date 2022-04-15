@@ -8,7 +8,7 @@ The project's is an abstraction of a strawberry farm. It is the harvesting scena
 
 1.  Ubuntu 20.04
 
-    The operating system on which all the softwares run is Ubuntu 20.04. Since the theme is run entirely in Gazebo 11 simulation, Ubuntu 20.04 is the only supported operating system
+    The operating system on which all the softwares run is Ubuntu 20.04. Since the theme is run entirely in Gazebo 11 simulation, Ubuntu 20.04 is the only supported operating system.
 
 2. ROS Noetic
 
