@@ -25,3 +25,7 @@ The project's is an abstraction of a strawberry farm. It is the harvesting scena
     Python is the language in which the participant’s programs are written
     The version of Python supported with ROS Noetic is Python 3
     Hence all the python programs interfacing with ROS Noetic framework is written in Python 3. Python 3 comes preinstalled with ROS Noetic
+    
+5. Px4 autopilot
+    
+    PX4 is an open source flight control software for drones and other unmanned vehicles. The project provides a flexible set of tools for drone developers to share     technologies to create tailored solutions for drone applications.
